@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercicio</title>
+    <title>Super contador</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body onload="carregar()">
+<body>
     <header>
         <h1>Vamos contar</h1>
     </header>
     <section>
-        <div>
-            <p>Inicio: <input type="number" name="inicio" id="inicio"></p>
-            <p>Fim: <input type="number" name="fim" id="fim"></p>
-            <p>Passo: <input type="number" name="passo" id="passo"></p>  
-            <p><input type="button" value="Contar"></p>
+        <div id="dados">
+            <p>Inicio: <input type="number" name="inicio" id="txti"></p>
+            <p>Fim: <input type="number" name="fim" id="txtf"></p>
+            <p>Passo: <input type="number" name="passo" id="txtp"></p>  
+            <p><input type="button" value="Contar" onclick="contar()"></p>
         </div>
             
         <div id="res">
